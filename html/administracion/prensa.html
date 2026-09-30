@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Acceso de Prensa - SUM Municipal</title>
+
+<!-- Tipografías: Big Shoulders Display (rótulos de cancha / marcador) + Atkinson Hyperlegible (texto, pensada para máxima legibilidad) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Big+Shoulders+Display:wght@700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/general.css">
+<link rel="stylesheet" href="../../css/panel.css">
+<link rel="stylesheet" href="../../css/administracion.css">
+</head>
+
+<body data-raiz="../../" data-vista="a_prensa">
+<div id="app"></div>
+<div id="modal-root"></div>
+<div id="aviso" role="status" aria-live="polite"></div>
+
+<!-- Generador de PDF (notas de solicitud e informes). Se carga desde cdnjs. -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="../../js/general.js"></script>
+<script src="../../js/pdf.js"></script>
+<script src="../../js/administracion.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/* SUM Municipal - Estilos exclusivos del panel de Cliente */
+
+.disp{border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:16px;background:var(--panel-2)}
+.disp p{margin:0 0 6px}
+.disp p:last-child{margin:0}
+.resumen{background:var(--panel-2);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:20px}

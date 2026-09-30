@@ -1,0 +1,29 @@
+/* SUM Municipal - Estilos exclusivos del panel de Administración */
+
+/* Cifras de la administración */
+.cifras{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:14px;background:var(--panel);overflow:hidden;margin-top:20px}
+.cifras button{border:0;background:transparent;padding:16px 10px;text-align:center;cursor:pointer;border-right:1px solid var(--line)}
+.cifras button:last-child{border-right:0}
+.cifras b{display:block;font:900 2.8rem/1 var(--display)}
+.cifras span{color:var(--ink-2);font-size:.95rem}
+.dos-col{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:28px}
+
+/* Tablas */
+.tabla-wrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;min-width:880px}
+th,td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.9rem;color:var(--ink-2);background:var(--panel-2);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.acciones{display:flex;flex-wrap:wrap;gap:6px}
+.barra{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:16px 0}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.tabs button{padding:9px 16px;border-radius:999px;border:1.5px solid var(--ink-2);background:transparent;font-weight:700;cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
+
+/* Opciones de radio (estado de la cancha e informe) */
+.radios{display:grid;gap:10px}
+.radio-op{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--panel);cursor:pointer}
+.radio-op:has(input:checked){border-color:var(--brand);background:var(--brand-soft)}
+.radio-op input{margin-top:5px}
+.radio-op strong{display:block}
+.radio-op span{color:var(--ink-2);font-size:.93rem}

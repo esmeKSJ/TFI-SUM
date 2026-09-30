@@ -1,0 +1,9 @@
+/* SUM Municipal - Estilos de login, registro, recuperación y verificación */
+
+.auth-card{max-width:540px;margin:32px auto;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:clamp(20px,4vw,32px)}
+.auth-card.ancho{max-width:680px}
+.auth-card h1{font:900 2.2rem/1.05 var(--display);margin-bottom:6px}
+.aviso-caja{border:1.5px solid var(--brand);background:var(--brand-soft);color:var(--ink);padding:12px 14px;border-radius:10px;margin:0 0 16px;font-size:.98rem}
+.demo{border:1.5px dashed var(--reservada);background:var(--reservada-soft);color:var(--reservada);padding:10px 12px;border-radius:10px;font-size:.95rem;margin:0 0 16px}
+.otp{display:flex;gap:12px;justify-content:center;margin:18px 0}
+.otp input{width:66px;height:74px;text-align:center;font:900 2.2rem var(--display);padding:0}

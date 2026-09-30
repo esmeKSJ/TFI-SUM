@@ -1,0 +1,20 @@
+/* SUM Municipal - Estilos exclusivos de index.html (vista pública) */
+
+/* Información del SUM */
+.info-datos{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}
+.info-datos>div{padding:16px 18px 16px 0}
+.info-datos dt{color:var(--ink-2);font-size:.95rem}
+.info-datos dd{margin:2px 0 0;font-weight:700;font-size:1.12rem}
+.info-listas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px;margin-top:28px}
+.info-listas h3{font:900 1.5rem var(--display);margin-bottom:8px}
+.info-listas ul,.info-listas p{margin:0;padding-left:1.1em}
+.info-listas p{padding-left:0}
+.info-listas li{margin-bottom:6px}
+
+/* Flyers publicados por Prensa */
+.flyers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0 8px}
+.flyer-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:block;width:100%;padding:0;text-align:left;cursor:pointer;font:inherit;color:inherit}
+.flyer-card img{display:block;width:100%;height:auto;max-height:360px;object-fit:cover;background:var(--panel-2)}
+.flyer-card span{display:block;padding:10px 12px;font-weight:700}
+.flyer-card small{display:block;font-weight:400;color:var(--ink-2)}
+.flyer-vista{max-width:100%;max-height:70vh;display:block;margin:0 auto;border-radius:10px}
